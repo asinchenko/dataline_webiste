@@ -1,6 +1,6 @@
 import React from 'react';
 import ScrollAnimation from "react-animate-on-scroll";
-
+import Typed from 'react-typed';
 
 const SlpitOne = () => {
     return (
@@ -9,7 +9,7 @@ const SlpitOne = () => {
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">
                                 <div className="thumbnail image-left-content">
-                                    <img src="./images/split/split-01.jpg" alt="split Images" />
+                                    <img src="./images/it/submain.jpeg" alt="split Images" />
                                 </div>
                             </div>
                             <div className="col-lg-12 col-xl-6 col-12">
@@ -18,12 +18,27 @@ const SlpitOne = () => {
                                     animateIn="fadeInUp"
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
-                                        <h4 className="title">What is DOOB?</h4>
+                                        <h4 className="title">Dataline24</h4>
                                     </ScrollAnimation>
                                     <ScrollAnimation 
                                     animateIn="fadeInUp"
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
+                                    <div className="inner">
+                                        <h1 className="title theme-gradient-original">
+                                            <Typed
+                                                strings={[
+                                                    "Consulting.",
+                                                    "Finance.",
+                                                    "Agency.",
+                                                ]}
+                                                typeSpeed={80}
+                                                backSpeed={5}
+                                                backDelay={1000}
+                                                loop
+                                            />
+                                        </h1>
+                                    </div>
                                     <p className="description">Randomised words which don't look even slightly believable.
                                         If you are to use a passage of Lorem Ipsum. You need to be sure there isn't
                                         anything embarrassing hidden in the middle of text. in some form, by injectedeed

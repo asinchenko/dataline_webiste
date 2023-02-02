@@ -721,7 +721,6 @@
         .description {
             font-size: 22px;
             line-height: 43px;
-
             @media #{$md-layout} {
                 font-size: 20px;
                 line-height: 38px;
@@ -825,6 +824,7 @@
             }
         }
         .description {
+            color: var(--color-body);
             font-size: 22px;
             line-height: 43px;
             @media #{$sm-layout} {

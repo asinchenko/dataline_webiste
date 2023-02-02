@@ -40,5 +40,6 @@ export const BannerActivation = {
     slidesToScroll: 1,
     dots: true,
     arrows: true,
+    autoplay: true,
 };
 
