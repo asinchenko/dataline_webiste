@@ -30,15 +30,14 @@ const Company = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-7 col-xl-6 order-2 order-lg-1 mt_md--40 mt_sm--40">
                                 <div className="inner text-start">
-                                    <span className="subtitle">DIGITAL CONSULTING AGENCY</span>
-                                    <h1 className="title theme-gradient display-one">Doob Company.</h1>
+                                    <span className="subtitle">IT SERVICE COMPANY</span>
+                                    <h1 className="title theme-gradient display-one">DataLine24</h1>
                                     <ul className="list-icon">
                                         <li><span className="icon"><FiCheck /></span> Track your teams progress with mobile app.</li>
                                         <li><span className="icon"><FiCheck /></span> Lorem ipsum dolor sit amet consectetur adipisicing.</li>
                                         <li><span className="icon"><FiCheck /></span> Your teams progress with mobile app.</li>
                                     </ul>
                                     <div className="button-group mt--40">
-                                        <a className="btn-default btn-medium round btn-icon" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Purchase Now <i className="icon"><FiArrowRight /></i></a>
                                         <Link className="btn-default btn-medium btn-border round btn-icon" to="#">Contact Us <i className="icon"><FiArrowRight /></i></Link>
                                     </div>
                                 </div>
