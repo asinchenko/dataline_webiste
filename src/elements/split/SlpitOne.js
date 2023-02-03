@@ -18,7 +18,7 @@ const SlpitOne = () => {
                                     animateIn="fadeInUp"
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
-                                        <h4 className="title">Dataline24</h4>
+                                        <h4 className="title"></h4>
                                     </ScrollAnimation>
                                     <ScrollAnimation 
                                     animateIn="fadeInUp"
@@ -28,9 +28,12 @@ const SlpitOne = () => {
                                         <h1 className="title theme-gradient-original">
                                             <Typed
                                                 strings={[
-                                                    "Consulting.",
-                                                    "Finance.",
-                                                    "Agency.",
+                                                    "Консультация.",
+                                                    "Разработка.",
+                                                    "Поставка.",
+                                                    "Монтаж.",
+                                                    "Сервисное Обслуживание.",
+                                                    "Техническая поддержка.",
                                                 ]}
                                                 typeSpeed={80}
                                                 backSpeed={5}
@@ -39,10 +42,9 @@ const SlpitOne = () => {
                                             />
                                         </h1>
                                     </div>
-                                    <p className="description">Randomised words which don't look even slightly believable.
-                                        If you are to use a passage of Lorem Ipsum. You need to be sure there isn't
-                                        anything embarrassing hidden in the middle of text. in some form, by injectedeed
-                                        bedhumour, or randomised even .</p>
+                                    <p className="description">Штат компании состоит из сертифицированных специалистов, охватывающих инженерную инфраструктуру ЦОД в направлениях:
+                                    <br/>
+                                        </p>
                                     </ScrollAnimation>
 
                                     
@@ -51,10 +53,12 @@ const SlpitOne = () => {
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
                                         <ul className="split-list">
-                                            <li>- Doug DeMarco, Design Prototyping Manager</li>
-                                            <li>- 108 million paying subscribers</li>
-                                            <li>- Over 1.7 billion hours of music played monthly</li>
-                                            <li>- 4,000+ employees working across 16 offices</li>
+                                            <li>- Монтаж, пуско-наладочные работы, сервисное обслуживание и ремонт:</li>
+                                            <li>- Бесперебойного питания Eaton</li>
+                                            <li>- Систем охранно-пожарных сигнализаций, тушения и слаботочным системам СКД и видеонаблюдения ИСО «Орион» </li>
+                                            <li>- Систем прецизионного кондиционирования Conteg, Montair, DT Group, Hokkaido</li>
+                                            <li>- Подбор, интеграцию, монтаж, настройку и последующее сервисное сопровождение систем мониторинга Conteg инженерных систем ЦОД</li>
+                                            <li>- Архитектура и инженерная инфраструктура ЦОД, Эксплуатация ЦОД.</li>
                                         </ul>
                                     </ScrollAnimation>
                                     <ScrollAnimation 
@@ -62,7 +66,7 @@ const SlpitOne = () => {
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
                                         <div className="view-more-button mt--35">
-                                            <a className="btn-default" href="/contact">Contact With Us</a>
+                                            <a className="btn-default" href="/contact">Связаться с нами</a>
                                         </div>
                                     </ScrollAnimation>
                                 </div>

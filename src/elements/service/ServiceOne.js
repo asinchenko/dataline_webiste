@@ -1,23 +1,25 @@
 import React from 'react';
-import { FiActivity, FiCast, FiMap } from "react-icons/fi";
+import { FiActivity } from "react-icons/fi";
+import { FcFactory } from "react-icons/fc";
+import {AiFillSafetyCertificate} from 'react-icons/ai'
 import {Link} from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
 
 const ServiceList = [
     {
         icon: <FiActivity />,
-        title: 'Awarded Design',
-        description: 'There are many variations variations  of passages of Lorem Ipsum available, but the majority have suffered.'
+        title: 'Комплексность Услуг',
+        description: 'Разработк, монтаж и установка различных технологических решений – полный цикл услуг от анализа и оптимизации существующих систем, до проектирования, поставки, монтажа и обслуживания новых решений'
     },
     {
-        icon: <FiCast />,
-        title: 'Design & Creative',
-        description: 'Passages there are many variations variations  of of Lorem Ipsum available, but the majority have suffered.'
+        icon: <FcFactory />,
+        title: 'Прямые Поставки',
+        description: 'Прямые поставки от заводов-изготовителей – собственная налаженная система дистрибуции в каждом рабочем направлении, ВЭД и логистики'
     },
     {
-        icon: <FiMap />,
-        title: 'App Development',
-        description: 'Variations There are many variations  of passages of Lorem Ipsum available, but the majority have suffered.'
+        icon: <AiFillSafetyCertificate />,
+        title: 'Профессионализм и Надежность',
+        description: 'Немалый опыт работы и квалифицированные специалисты позволяют производить работы любой сложности'
     },
 ]
 

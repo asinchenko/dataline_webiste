@@ -6,20 +6,20 @@ import { FaSpinner } from "react-icons/fa";
 const filters = [
     {
       id: 1,
-      text: "All",
+      text: "Все",
     },
     {
       id: 2,
-      text: "design",
+      text: "Сервис",
     },
     {
       id: 3,
-      text: "art",
+      text: "Консалтинг",
     },
     {
       id: 4,
-      text: "development",
-    }
+      text: "Программное обеспечение",
+    },
 ];
 
 

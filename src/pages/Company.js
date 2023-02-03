@@ -51,12 +51,12 @@ const Company = () => {
                                     <span className="subtitle">СЕРВИСНАЯ IT КОМПАНИЯ</span>
                                     <h1 className="title theme-gradient display-one">DataLine24</h1>
                                     <ul className="list-icon">
-                                        <li><span className="icon"><FiCheck /></span> Lorem ipsum dolor sit amet consectetur adipisicing</li>
-                                        <li><span className="icon"><FiCheck /></span> Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                                        <li><span className="icon"><FiCheck /></span> Lorem ipsum dolor sit amet consectetur adipisicing</li>
+                                        <li><span className="icon"><FiCheck /></span> Обеспечиваем надежные и качественные IT услуги. </li>
+                                        <li><span className="icon"><FiCheck /></span> Предлагаем широкий спектр услуг IT поддержки. </li>
+                                        <li><span className="icon"><FiCheck /></span> Мы используем современные технологии и методы решения проблем. </li>
                                     </ul>
                                     <div className="button-group mt--40">
-                                        <Link className="btn-default btn-medium btn-border round btn-icon" to="/contact">Contact Us <i className="icon"><FiArrowRight /></i></Link>
+                                        <Link className="btn-default btn-medium btn-border round btn-icon" to="/contact">Обратная Связь <i className="icon"><FiArrowRight /></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -91,11 +91,11 @@ const Company = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="content">
-                                    <h3 className="title">We are creative digital agency working for our company brands.</h3>
+                                    <h3 className="title">Мы сервисная IT компания выделяющаяся на рынке.</h3>
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <p className="mb--10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quis. Ullam accusantium dignissimos repellendus nemo fugiat numquam, nisi odio adipisci. Veniam neque itaque expedita officiis rem ipsa! Ratione, rem reiciendis?</p>
+                                <p className="mb--10">DataLine24 – это надежная IT компания, предлагающая широкий спектр услуг IT поддержки с использованием современных технологий и методов решения проблем, высокую квалификацию и многолетний опыт работы, а также обеспечивает конфиденциальность и безопасность ваших данных, регулярно проходя обучение и обновление навыков наших специалистов.</p>
                                 <div className="readmore-btn">
                                     <Link className="btn-read-more" to="#"><span>View More</span></Link>
                                 </div>
@@ -115,9 +115,9 @@ const Company = () => {
                                 <SectionTitle
                                     textAlign = "text-center"
                                     radiusRounded = ""
-                                    subtitle = "What we can do for you"
-                                    title = "Services provide for you."
-                                    description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
+                                    subtitle = "Преимущества нашей компании"
+                                    title = "Сервис предоставленный Вам."
+                                    description = "Наряду с профессиональным опытом и успехами в реализации проектов разного масштаба и сложности наша компания также имеет:"
                                     />
                             </div>
                         </div>
@@ -140,8 +140,8 @@ const Company = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "Working Process"
-                                        title = "Our Working Process."
+                                        subtitle = "Рабочий Процесс"
+                                        title = "Наш Рабочий Процесс."
                                     />
                             </div>
                         </div>
@@ -155,22 +155,25 @@ const Company = () => {
 
                 <Separator />
 
-                <div className="rwt-portfolio-area rn-section-gap">
+                
+                {/* Start Portfolio Area  */}
+                <div className="rwt-portfolio-area rn-section-gapBottom">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                    <SectionTitle
-                                        textAlign = "text-center"
-                                        radiusRounded = ""
-                                        subtitle = "Our Project"
-                                        title = "Why People Choose Us!"
-                                        description = ""
-                                    />
+                                <SectionTitle
+                                    textAlign = "text-center"
+                                    radiusRounded = ""
+                                    subtitle = "Специализация"
+                                    title = "В чем мы сильны!"
+                                    description = "Наша компания является универсальной и разносторонней."
+                                />
                             </div>
                         </div>
-                        <PortfolioOne Column="col-lg-6 col-md-6 col-sm-12 col-12 mt--50 portfolio" />
+                        <PortfolioOne Column="col-lg-4 col-md-6 col-12 mt--30 portfolio"  />
                     </div>
                 </div>
+                {/* End Portfolio Area  */}
 
                 <Separator />
 
