@@ -84,7 +84,7 @@ const Company = () => {
                     </div>
                 </div>
                 {/* End Slider Area  */}
-
+                
                 {/* Start Service Area  */}
                 <div className="service-area rn-section-gapBottom">
                     <div className="container">
@@ -129,7 +129,8 @@ const Company = () => {
                     </div>
                 </div>
                 {/* End Service Area  */}
-
+                <Separator />
+                
                 <SlpitOne />
                 
                 <Separator />
@@ -202,7 +203,7 @@ const Company = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center">
-                                    <h3 className="title">Our Awesome Customer Relation Build a <br /> Long Term Relationship.</h3>
+                                    <h3 className="title">Наши партнеры</h3>
                                 </div>
                             </div>
                         </div>

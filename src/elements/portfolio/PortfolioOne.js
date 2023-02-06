@@ -112,7 +112,7 @@ const PortfolioOne = ({ Column }) => {
                             disabled={noMorePost ? "disabled" : null}
                         >
                             {noMorePost ? (
-                            "No Item Here"
+                            "Конец списка"
                             ) : (
                             <span>
                                 Load More 

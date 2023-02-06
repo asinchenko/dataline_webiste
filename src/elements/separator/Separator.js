@@ -4,7 +4,14 @@ const Separator = () => {
     return (
         <div className="rbt-separator-mid">
             <div className="container">
-                <hr className="rbt-separator m-0" />
+            <hr
+                style={{
+                background: 'gray',
+                color: 'gray',
+                borderColor: 'gray',
+                height: '3px',
+                }}
+            />
             </div>
         </div>
     )

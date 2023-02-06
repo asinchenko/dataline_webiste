@@ -4,7 +4,7 @@ import Typed from 'react-typed';
 
 const SlpitOne = () => {
     return (
-            <div className="rn-splite-style">
+            <div className="rn-splite-style ">
                 <div className="split-wrapper">
                         <div className="row no-gutters radius-10 align-items-center">
                             <div className="col-lg-12 col-xl-6 col-12">
