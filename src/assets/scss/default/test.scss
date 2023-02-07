@@ -1,0 +1,49 @@
+$blue: #3399cc;
+$red: #cc3366;
+$yellow: #e3d15f;
+$dark-navy: #151618;
+
+hr {
+    display: block;
+    position: relative;
+    margin: 1rem 0;
+    width: 8rem;
+    height: 1px;
+    border: none;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, $blue, $yellow, $red);
+    animation-duration: 2s;
+    animation-name: slide;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  
+  &--delay {
+    animation-delay: 1s;
+  }
+    
+    &::before, &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 3px;
+        height: 3px;
+        top: -1px;
+        background: white;
+    }
+    
+    &::before {
+        left: 0;
+        top: -1px;
+    }
+    
+    &::after {
+        right: 0;
+    }
+}
+
+@keyframes slide {
+    from { background-position: left 0; }
+    to { background-position: right 0; }
+}
+
+//Miscellaneous

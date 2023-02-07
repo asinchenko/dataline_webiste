@@ -196,9 +196,9 @@ const Company = () => {
                     </div>
                 </div>
                 {/* End Elements Area  */}
-
+                <Separator />
                 {/* Start Brand Area  */}
-                <div className="rwt-brand-area pb--80">
+                <div className="rwt-brand-area pb--80 rn-section-gapBottom">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -214,6 +214,7 @@ const Company = () => {
                         </div>
                     </div>
                 </div>
+                <Separator />
                 {/* End Brand Area  */}
                 <FooterTwo />
                 <Copyright />
