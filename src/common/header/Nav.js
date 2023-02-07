@@ -4,8 +4,8 @@ import {Link} from "react-router-dom";
 const Nav = () => {
     return (
         <ul className="mainmenu">
-            <li className="has-droupdown"><Link to="#">Home</Link>
-                <ul className="submenu">
+            <li className="has-droupdown"><Link to="/">Главная</Link>
+                {/* <ul className="submenu">
                     <li><Link to="/business-consulting">Business Consulting</Link></li>
                     <li><Link to="/business-consulting-2">Business Consulting 02</Link></li>
                     <li><Link to="/corporate">Corporate</Link></li>
@@ -24,11 +24,11 @@ const Nav = () => {
                     <li><Link to="/international-consulting">International Consulting</Link></li>
                     <li><Link to="/startup">Startup</Link></li>
                     <li><Link to="/web-agency">Web Agency</Link></li>
-                </ul>
+                </ul> */}
             </li>
             
-            <li><Link to="/about-us">About</Link></li>
-
+            <li><Link to="/#1">О нас</Link></li>
+            {/*
             <li className="with-megamenu"><Link to="#">Elements</Link>
                 <div className="rn-megamenu">
                     <div className="wrapper">
@@ -98,9 +98,9 @@ const Nav = () => {
                     <li><Link to="/portfolio-grid-layout">Portfolio Grid Layout</Link></li>
                     <li><Link to="/portfolio-box-layout">Portfolio Box Layout</Link></li>
                 </ul>
-            </li>
+            </li> */}
 
-            <li className="has-droupdown"><Link to="/contact">Contact</Link></li>
+            <li className="has-droupdown"><Link to="/contact">Контакты</Link></li>
         </ul>
     )
 }

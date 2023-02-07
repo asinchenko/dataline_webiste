@@ -49,7 +49,7 @@ const Company = () => {
                             <div className="col-lg-7 col-xl-6 order-2 order-lg-1 mt_md--40 mt_sm--40">
                                 <div className="inner text-start">
                                     <span className="subtitle">СЕРВИСНАЯ IT КОМПАНИЯ</span>
-                                    <h1 className="title theme-gradient display-one">DataLine24</h1>
+                                    <h1 className="title theme-gradient display-one">DATALINE24</h1>
                                     <ul className="list-icon">
                                         <li><span className="icon"><FiCheck /></span> Обеспечиваем надежные и качественные IT услуги. </li>
                                         <li><span className="icon"><FiCheck /></span> Предлагаем широкий спектр услуг IT поддержки. </li>
@@ -186,9 +186,9 @@ const Company = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "Our Experts."
-                                        title = "Companies Team"
-                                        description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
+                                        subtitle = "Наши эксперты."
+                                        title = "Члены команды"
+                                        description = "Наши сотрудники являются квалифицированными и опытными профессоиналами своего дела"
                                     />
                             </div>
                         </div>

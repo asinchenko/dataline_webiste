@@ -6,10 +6,10 @@ import ScrollAnimation from "react-animate-on-scroll";
 const teamData = [
     {
         image: 'team-dark-01',
-        name: 'Sr Janen Sara',
-        designation: 'Sr Product Designer',
-        location: 'CO Miego, AD, USA', 
-        description: 'Yes, I am a product designer. I have a passion for product design.',
+        name: 'Мистер Кто-то',
+        designation: 'Кто-то',
+        location: 'Астана, Казахстан', 
+        description: 'Да, Я мистер Кто-то и умею делать что-то',
         socialNetwork: [
             {
                 icon: <FiFacebook />,
@@ -28,9 +28,9 @@ const teamData = [
     },
     {
         image: 'team-dark-02',
-        name: 'Corporate Jane',
-        designation: 'Manager',
-        location: 'Bangladesh', 
+        name: 'Директор 1',
+        designation: 'Директор 1',
+        location: 'Караганда, Казахстан', 
         description: 'Yes, I am a product designer. I have a passion for product design.',
         socialNetwork: [
             {
@@ -50,9 +50,9 @@ const teamData = [
     },
     {
         image: 'team-dark-03',
-        name: 'Jara Saraif',
-        designation: 'Software Developer',
-        location: 'Poland', 
+        name: 'Директор 2',
+        designation: 'Директор 2',
+        location: 'Астана, Казахстан', 
         description: 'Yes, I am a product designer. I have a passion for product design.',
         socialNetwork: [
             {
@@ -72,9 +72,9 @@ const teamData = [
     },
     {
         image: 'team-dark-04',
-        name: 'Afanan Sifa',
-        designation: 'Accounts Manager',
-        location: 'Poland', 
+        name: 'Мистер кто-то',
+        designation: 'Мистер кто-то',
+        location: 'Караганда, Казахстан', 
         description: 'Yes, I am a product designer. I have a passion for product design.',
         socialNetwork: [
             {

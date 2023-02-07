@@ -115,7 +115,7 @@ const PortfolioOne = ({ Column }) => {
                             "Конец списка"
                             ) : (
                             <span>
-                                Load More 
+                                Открыть еще 
                                 <span className="icon">
                                     <FaSpinner />
                                 </span>
