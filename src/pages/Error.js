@@ -11,14 +11,10 @@ const Error = () => {
                         <div className="col-lg-12">
                             <div className="error-inner">
                                 <h1>404</h1>
-                                <h2 className="title">Something’s not right.</h2>
-                                <p className="description"> By injectedeed eedhumour, or randomised words which don't look even .</p>
-                                <form action="#" className="blog-search">
-                                    <input type="text" placeholder="Search Here..." />
-                                    <button className="search-button"><FaSistrix /></button>
-                                </form>
+                                <h2 className="title">Что-то пошло не так.</h2>
+                                <p className="description"> Скорее всего Вы обратились по адресу на несуществующую страницу.</p>
                                 <div className="view-more-button">
-                                    <a className="btn-default" href="/">Go Back Home</a>
+                                    <a className="btn-default" href="/">Вернуться на главную</a>
                                 </div>
                             </div>
                         </div>

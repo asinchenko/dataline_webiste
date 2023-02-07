@@ -166,7 +166,7 @@ const Company = () => {
                                     textAlign = "text-center"
                                     radiusRounded = ""
                                     subtitle = "Специализация"
-                                    title = "В чем мы сильны!"
+                                    title = "Наши преимущества!"
                                     description = "Наша компания является универсальной и разносторонней."
                                 />
                             </div>
