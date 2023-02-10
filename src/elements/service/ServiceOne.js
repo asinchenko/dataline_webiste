@@ -18,7 +18,7 @@ const ServiceList = [
     },
     {
         icon: <AiOutlineCustomerService />,
-        title: '3.	Service Desk 24/7',
+        title: 'Service Desk 24/7',
         description: 'Осуществляем техническую поддержку необходимого уровня в режиме 24/7/365'
     },
 ]

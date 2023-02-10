@@ -50,7 +50,7 @@ const BannerData = [
 const Company = () => {
     return (
         <>
-            <SEO title="Company" />
+            <SEO title="dataline24" />
             <main className="page-wrapper">
                 <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-not-transparent" />
                 {/* Start Slider Area  */}
