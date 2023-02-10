@@ -9,7 +9,7 @@ import HeaderOne from '../common/header/HeaderOne';
 import HeaderTopNews from '../common/header/HeaderTopNews';
 import FooterTwo from '../common/footer/FooterTwo';
 import Copyright from '../common/footer/Copyright';
-
+import TeamTwo from '../elements/team/TeamTwo';
 import ServiceOne from '../elements/service/ServiceOne';
 import Separator from "../elements/separator/Separator";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
@@ -19,6 +19,11 @@ import TeamFour from "../elements/team/TeamFour";
 import BrandTwo from "../elements/brand/BrandTwo";
 
 const BannerData = [
+    {
+        image: "/images/it/main2.png",
+        title: "ЦОД",
+        description: "We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials."
+    },
     {
         image: "/images/it/main.png",
         title: "Серверы",
@@ -34,6 +39,12 @@ const BannerData = [
         title: "СКУД",
         description: "We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials."
     },
+    {
+        image: "/images/it/main2.png",
+        title: "СКУД",
+        description: "We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials."
+    },
+    
 ]
 
 const Company = () => {
@@ -51,12 +62,12 @@ const Company = () => {
                                     <span className="subtitle">СЕРВИСНАЯ IT КОМПАНИЯ</span>
                                     <h1 className="title theme-gradient display-one">DATALINE24</h1>
                                     <ul className="list-icon">
-                                        <li><span className="icon"><FiCheck /></span> Обеспечиваем надежные и качественные IT услуги. </li>
-                                        <li><span className="icon"><FiCheck /></span> Предлагаем широкий спектр услуг IT поддержки. </li>
-                                        <li><span className="icon"><FiCheck /></span> Мы используем современные технологии и методы решения проблем. </li>
+                                        <li><span className="icon"><FiCheck /></span> Обеспечиваем надежный и качественный сервис инфраструктуры ЦОД </li>
+                                        <li><span className="icon"><FiCheck /></span> Используем современные технологии и методы решения проблем </li>
+                                        <li><span className="icon"><FiCheck /></span> Предлагаем необходимый уровень технической поддержки </li>
                                     </ul>
                                     <div className="button-group mt--40">
-                                        <Link className="btn-default btn-medium btn-border round btn-icon" to="/contact">Обратная Связь <i className="icon"><FiArrowRight /></i></Link>
+                                        <Link className="btn-default btn-medium btn-border round btn-icon" to="/contact">Связаться с нами <i className="icon"><FiArrowRight /></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -91,14 +102,14 @@ const Company = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="content">
-                                    <h3 className="title">Мы сервисная IT компания выделяющаяся на рынке.</h3>
+                                    <h3 className="title">Наш сервис – ваше спокойствие</h3>
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <p className="mb--10">DataLine24 – это надежная IT компания, предлагающая широкий спектр услуг IT поддержки с использованием современных технологий и методов решения проблем, высокую квалификацию и многолетний опыт работы, а также обеспечивает конфиденциальность и безопасность ваших данных, регулярно проходя обучение и обновление навыков наших специалистов.</p>
-                                <div className="readmore-btn">
+                                <p className="mb--10">DataLine24 – это надежная IT компания, предлагающая широкий спектр услуг IT поддержки с использованием современных технологий и методов решения проблем, высокую квалификацию и многолетний опыт работы. Мы обеспечиваем конфиденциальность и безопасность ваших данных, регулярно проходя обучение и обновление навыков наших специалистов.</p>
+                                {/* <div className="readmore-btn">
                                     <Link className="btn-read-more" to="#"><span>View More</span></Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -117,7 +128,7 @@ const Company = () => {
                                     radiusRounded = ""
                                     subtitle = "Преимущества нашей компании"
                                     title = "Сервис предоставленный Вам."
-                                    description = "Наряду с профессиональным опытом и успехами в реализации проектов разного масштаба и сложности наша компания также имеет:"
+                                    description = "Наряду с профессиональным опытом и успехами в реализации проектов разного масштаба и сложности наша компания также имеет ряд преимуществ:"
                                     />
                             </div>
                         </div>
@@ -196,6 +207,26 @@ const Company = () => {
                     </div>
                 </div>
                 {/* End Elements Area  */}
+
+                <Separator />
+                {/* Start Team Area  */}
+                <div className="rwt-team-area rn-section-gap">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                    <SectionTitle
+                                        textAlign = "text-center"
+                                        radiusRounded = ""
+                                        subtitle = "Заказчики"
+                                        title = "Нам доверяют"
+                                        description = "Что нибудь написать сюда?"
+                                    />
+                            </div>
+                        </div>
+                        <TeamTwo column="col-lg-4 col-md-3 col-12" teamStyle="team-style-default style-two" />
+                    </div>
+                </div>
+                {/* End Team Area  */}
                 <Separator />
                 {/* Start Brand Area  */}
                 <div className="rwt-brand-area pb--80 rn-section-gapBottom">

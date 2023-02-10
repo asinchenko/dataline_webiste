@@ -1,25 +1,25 @@
 import React from 'react';
-import { FiActivity } from "react-icons/fi";
-import { FcFactory } from "react-icons/fc";
+import { BsListTask } from "react-icons/bs";
+import { AiOutlineCustomerService } from "react-icons/ai";
 import {AiFillSafetyCertificate} from 'react-icons/ai'
 import {Link} from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
 
 const ServiceList = [
     {
-        icon: <FiActivity />,
+        icon: <BsListTask />,
         title: 'Комплексность Услуг',
-        description: 'Разработк, монтаж и установка различных технологических решений – полный цикл услуг от анализа и оптимизации существующих систем, до проектирования, поставки, монтажа и обслуживания новых решений'
-    },
-    {
-        icon: <FcFactory />,
-        title: 'Прямые Поставки',
-        description: 'Прямые поставки от заводов-изготовителей – собственная налаженная система дистрибуции в каждом рабочем направлении, ВЭД и логистики'
+        description: 'Предоставляем полный цикл услуг: от анализа, оптимизации и обслуживания существующих систем до проектирования, поставки и монтажа новых решений'
     },
     {
         icon: <AiFillSafetyCertificate />,
-        title: 'Профессионализм и Надежность',
-        description: 'Немалый опыт работы и квалифицированные специалисты позволяют производить работы любой сложности'
+        title: 'Профессионализм',
+        description: 'Немалый опыт работы и наличие квалифицированных специалистов позволяют осуществлять работы любой сложности, обслуживая оборудование широкого списка производителей'
+    },
+    {
+        icon: <AiOutlineCustomerService />,
+        title: '3.	Service Desk 24/7',
+        description: 'Осуществляем техническую поддержку необходимого уровня в режиме 24/7/365'
     },
 ]
 

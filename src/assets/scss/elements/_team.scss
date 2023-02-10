@@ -28,6 +28,7 @@
         }
 
         .content {
+            position: relative;
             text-align: center;
             padding: 20px;
             padding-top: 85px;
@@ -61,6 +62,27 @@
                 margin-bottom: 0;
                 padding: 0 5%;
             }
+            .description-new {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                margin-bottom: 0;
+                padding: 0 5%;
+                line-height: 1.4;
+                font-weight: 700;
+                margin-bottom: 12px;
+                height: 100px;
+            }
+            .position-bottom {
+                
+                position: relative;
+                bottom: 0px;
+            } 
+        }
+
+        .content p {
+            align-items: center;
+            justify-content: center;            
         }
 
         .social-icon {
@@ -118,7 +140,6 @@
                 line-height: 1.4;
                 font-weight: 500;
                 margin-bottom: 0;
-
             }
             .subtitle {
                 font-size: 18px;
