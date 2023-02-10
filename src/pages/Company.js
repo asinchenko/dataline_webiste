@@ -188,27 +188,6 @@ const Company = () => {
                 {/* End Portfolio Area  */}
 
                 <Separator />
-
-                {/* Start Elements Area  */}
-                <div className="rwt-team-area rn-section-gap">
-                    <div className="wrapper plr--65">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                    <SectionTitle
-                                        textAlign = "text-center"
-                                        radiusRounded = ""
-                                        subtitle = "Наши эксперты."
-                                        title = "Члены команды"
-                                        description = "Наши сотрудники являются квалифицированными и опытными профессоиналами своего дела"
-                                    />
-                            </div>
-                        </div>
-                        <TeamFour column="col-lg-6 col-xl-3 col-md-6 col-12 mt--30" teamStyle="team-style-three" />
-                    </div>
-                </div>
-                {/* End Elements Area  */}
-
-                <Separator />
                 {/* Start Team Area  */}
                 <div className="rwt-team-area rn-section-gap">
                     <div className="container">
