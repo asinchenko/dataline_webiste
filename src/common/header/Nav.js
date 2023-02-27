@@ -1,13 +1,14 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import { HashLink} from 'react-router-hash-link';
+import AnchorLink from "react-anchor-link-smooth-scroll";
 const Nav = () => {
     return (
         <ul className="mainmenu">
             <li className="" id="main"><Link to="/">Главная</Link></li>
-            <li><HashLink smooth to="/#about">О нас</HashLink></li>
-            <li><HashLink smooth to="/#specialization">Специализация</HashLink></li>
-            <li><HashLink smooth to="/#partners">Партнеры</HashLink></li>
+            {console.log(window.location.pathname)}
+            {window.location.pathname === "/" ? <li><AnchorLink href='#about'>О нас</AnchorLink></li> :""}
+            {window.location.pathname === "/" ? <li><AnchorLink href="#specialization">Специализация</AnchorLink></li> :""}
+            {window.location.pathname === "/" ? <li><AnchorLink href="#partners">Партнеры</AnchorLink></li>:""}            
             {/*
             <li className="with-megamenu"><Link to="#">Elements</Link>
                 <div className="rn-megamenu">

@@ -15,6 +15,7 @@ import SectionTitle from "../elements/sectionTitle/SectionTitle";
 import SlpitOne from "../elements/split/SlpitOne";
 import PortfolioOne from "../elements/portfolio/PortfolioOne";
 import BrandTwo from "../elements/brand/BrandTwo";
+import ScrollToHashElement from "./ScrollToHashElement";
 
 const BannerData = [
     {
@@ -119,7 +120,9 @@ const Company = () => {
                 </div>
                 {/* End Service Area  */}
 
-                <div id="about"></div>
+                <div id="about">
+                    <ScrollToHashElement/>
+                </div>
                 <Separator />
                 {/* Start Service Area  */}
                 <div className="rn-service-area rn-section-gap">
@@ -167,7 +170,9 @@ const Company = () => {
                         </div>
                     </div>
                 </div>
-                <div id="specialization"></div>
+                <div id="specialization">
+                    <ScrollToHashElement />
+                </div>
                 <Separator/>
                 
                 
@@ -212,6 +217,7 @@ const Company = () => {
                 <Separator />
                 {/* Start Brand Area  */}
                 <div className="rwt-brand-area pb--80 rn-section-gapBottom" id="partners">
+                    <ScrollToHashElement />
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
