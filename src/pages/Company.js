@@ -126,8 +126,8 @@ const Company = () => {
                                 <SectionTitle
                                     textAlign = "text-center"
                                     radiusRounded = ""
-                                    subtitle = "Преимущества нашей компании"
-                                    title = "Сервис предоставленный Вам."
+                                    subtitle = ""
+                                    title = "Преимущества Нашей Компании"
                                     description = "Наряду с профессиональным опытом и успехами в реализации проектов разного масштаба и сложности наша компания также имеет ряд преимуществ:"
                                     />
                             </div>
@@ -152,7 +152,7 @@ const Company = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "Рабочий Процесс"
+                                        subtitle = ""
                                         title = "Наш Рабочий Процесс."
                                     />
                             </div>
