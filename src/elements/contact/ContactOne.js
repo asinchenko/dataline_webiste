@@ -17,8 +17,7 @@ const ContactOne = () => {
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Номер Телефона</h4>
-                                        <p><a href="tel:+7 777 77 77 777">+7 777 77 77 777</a></p>
-                                        <p><a href="tel:+7 777 77 77 777">+7 777 77 77 777</a></p>
+                                        <p><a href="tel:+7 777 079 3332">+7 777 079 3332</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -30,8 +29,7 @@ const ContactOne = () => {
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Почтовый Адрес</h4>
-                                        <p><a href="mailto:info@dataline24.kz">info@dataline24.kz</a></p>
-                                        <p><a href="mailto:admin@dataline24.kz">admin@dataline24.kz</a></p>
+                                        <p><a href="mailto:info@dtln24.kz">info@dtln24.kz</a></p>
                                     </div>
                                 </div>
                             </div>

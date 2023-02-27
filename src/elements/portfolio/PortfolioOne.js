@@ -51,6 +51,7 @@ const PortfolioOne = ({ Column }) => {
           );
         }
         setVisibleItems(tempData);
+        
     };
 
     const handleLoadmore = (e) => {
@@ -80,7 +81,7 @@ const PortfolioOne = ({ Column }) => {
                         {filters.map((filter) => (
                         <li className="list-item" key={filter.id}>
                             <button
-                            onClick={handleChange}
+                            onClick={(e) => {handleLoadmore(e); handleChange(e);}}
                             className={
                                 filter.text.toLowerCase() === activeFilter
                                 ? "current"
@@ -107,7 +108,7 @@ const PortfolioOne = ({ Column }) => {
                 <div className="col-lg-12">
                     <div className="rwt-load-more text-center mt--50">
                         <button
-                            className="btn btn-default btn-large btn-icon"
+                            className="btn-default btn-medium btn-border round btn-icon"
                             onClick={handleLoadmore}
                             disabled={noMorePost ? "disabled" : null}
                         >

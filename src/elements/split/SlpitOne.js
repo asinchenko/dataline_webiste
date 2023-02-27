@@ -26,7 +26,7 @@ const SlpitOne = () => {
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
                                     <div className="inner">
-                                        <h1 className="title theme-gradient-original">
+                                        <h1 className="title theme-gradient">
                                             <Typed
                                                 strings={[
                                                     "Консультация.",

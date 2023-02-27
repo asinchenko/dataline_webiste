@@ -80,10 +80,10 @@ function ContactForm({props , formStyle}) {
                 required
                 >
                 </textarea>
-            </div>
+            </div>  
 
             <div className="form-group">
-                <button className="btn-default btn-large">Отправить</button>
+                <button className="btn-default btn-medium btn-border round btn-icon">Отправить</button>
             </div> 
 
             <div className="form-group">

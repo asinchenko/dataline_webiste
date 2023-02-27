@@ -6,7 +6,6 @@ import { BannerActivation } from "../utils/script";
 import TimelineTwo from "../elements/timeline/TimelineTwo";
 import Slider from "react-slick";
 import HeaderOne from '../common/header/HeaderOne';
-import HeaderTopNews from '../common/header/HeaderTopNews';
 import FooterTwo from '../common/footer/FooterTwo';
 import Copyright from '../common/footer/Copyright';
 import TeamTwo from '../elements/team/TeamTwo';
@@ -15,7 +14,6 @@ import Separator from "../elements/separator/Separator";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
 import SlpitOne from "../elements/split/SlpitOne";
 import PortfolioOne from "../elements/portfolio/PortfolioOne";
-import TeamFour from "../elements/team/TeamFour";
 import BrandTwo from "../elements/brand/BrandTwo";
 
 const BannerData = [
@@ -121,13 +119,13 @@ const Company = () => {
                 </div>
                 {/* End Service Area  */}
 
-
+                <div id="about"></div>
                 <Separator />
                 {/* Start Service Area  */}
                 <div className="rn-service-area rn-section-gap">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-12" id="about">
+                            <div className="col-lg-12" >
                                 <SectionTitle
                                     textAlign = "text-center"
                                     radiusRounded = ""
@@ -169,9 +167,9 @@ const Company = () => {
                         </div>
                     </div>
                 </div>
-
-                <Separator />
-
+                <div id="specialization"></div>
+                <Separator/>
+                
                 
                 {/* Start Portfolio Area  */}
                 <div className="rwt-portfolio-area rn-section-gapBottom">

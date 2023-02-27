@@ -4,30 +4,9 @@ import { HashLink} from 'react-router-hash-link';
 const Nav = () => {
     return (
         <ul className="mainmenu">
-            <li className=""><HashLink to="/">Главная</HashLink>   
-                {/* <ul className="submenu">
-                    <li><Link to="/business-consulting">Business Consulting</Link></li>
-                    <li><Link to="/business-consulting-2">Business Consulting 02</Link></li>
-                    <li><Link to="/corporate">Corporate</Link></li>
-                    <li><Link to="/business">Business</Link></li>
-                    <li><Link to="/digital-agency">Digital Agency</Link></li>
-                    <li><Link to="/finance">Finance</Link></li>
-                    <li><Link to="/company">Company</Link></li>
-                    <li><Link to="/marketing">Marketing Agency</Link></li>
-                    <li><Link to="/travel-agency">Travel Agency</Link></li>
-                    <li><Link to="/consulting">Consulting</Link></li>
-                    <li><Link to="/seo-agency">SEO Agency</Link></li>
-                    <li><Link to="/personal-portfolio">Personal Portfolio</Link></li>
-                    <li><Link to="/event-conference">Event Conference</Link></li>
-                    <li><Link to="/creative-portfolio">Creative Portfolio</Link></li>
-                    <li><Link to="/freelancer">Freelancer</Link></li>
-                    <li><Link to="/international-consulting">International Consulting</Link></li>
-                    <li><Link to="/startup">Startup</Link></li>
-                    <li><Link to="/web-agency">Web Agency</Link></li>
-                </ul> */}
-            </li>
-            
+            <li className="" id="main"><Link to="/">Главная</Link></li>
             <li><HashLink smooth to="/#about">О нас</HashLink></li>
+            <li><HashLink smooth to="/#specialization">Специализация</HashLink></li>
             <li><HashLink smooth to="/#partners">Партнеры</HashLink></li>
             {/*
             <li className="with-megamenu"><Link to="#">Elements</Link>
