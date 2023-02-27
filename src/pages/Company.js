@@ -20,30 +20,35 @@ import BrandTwo from "../elements/brand/BrandTwo";
 
 const BannerData = [
     {
-        image: "/images/it/main2.png",
-        title: "ЦОД",
-        description: "We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials."
+        image: "/images/it/dc_900_900.jpeg",
+        title: "Сервис ЦОД",
+        description: "Осуществляем сервисное обслуживание систем холодоснабжения, энергоснабжения, серверного и сетевого оборудования, слаботочных систем"
     },
     {
-        image: "/images/it/main.png",
-        title: "Серверы",
-        description: "We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials."
+        image: "/images/it/installation_900_900.jpeg",
+        title: "Монтаж",
+        description: "Производим монтаж инженерных систем ЦОД и оборудования любого производителя"
     },
     {
-        image: "/images/it/main1.png",
-        title: "Системы Охлождения",
-        description: "We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials."
+        image: "/images/it/monitroing_900_900.jpeg",
+        title: "Мониторинг",
+        description: "Предоставляем удалённый или локальный мониторинг инфраструктуры для минимизации риска выхода оборудования из строя"
     },
     {
-        image: "/images/it/main2.png",
-        title: "СКУД",
-        description: "We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials."
+        image: "/images/it/diagnostics_900_900.jpeg",
+        title: "Диагностика",
+        description: "Производим полное обследование инженерных систем и даем рекомендации по модернизации ЦОД"
     },
     {
-        image: "/images/it/main2.png",
-        title: "СКУД",
-        description: "We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials."
+        image: "/images/it/supplies_900_900.jpeg",
+        title: "Поставка",
+        description: "Консультируем по оснащению ЦОД или серверной и осуществляем поставки оборудования под потребности заказчика"
     },
+    {
+        image: "/images/it/team_900_900.jpeg",
+        title: "Команда",
+        description: "Наша команда состоит из "
+    }
     
 ]
 
@@ -81,7 +86,7 @@ const Company = () => {
                                                         <div className="col-lg-12">
                                                             <div className="inner text-center">
                                                                 <h1 className="title" dangerouslySetInnerHTML={{__html: data.title}}></h1>
-                                                                <p className="description" dangerouslySetInnerHTML={{__html: data.description}}></p>
+                                                                <p className="description-new" dangerouslySetInnerHTML={{__html: data.description}}></p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -153,7 +158,7 @@ const Company = () => {
                                         textAlign = "text-center"
                                         radiusRounded = ""
                                         subtitle = ""
-                                        title = "Наш Рабочий Процесс."
+                                        title = "Рабочий Процесс"
                                     />
                             </div>
                         </div>
@@ -176,9 +181,9 @@ const Company = () => {
                                 <SectionTitle
                                     textAlign = "text-center"
                                     radiusRounded = ""
-                                    subtitle = "Специализация"
-                                    title = "Наши преимущества!"
-                                    description = "Наша компания является универсальной и разносторонней."
+                                    // subtitle = "Специализация"
+                                    title = "Виды услуг"
+                                    // description = "Наша компания является универсальной и разносторонней."
                                 />
                             </div>
                         </div>

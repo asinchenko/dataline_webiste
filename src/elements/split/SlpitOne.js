@@ -1,7 +1,8 @@
 import React from 'react';
 import ScrollAnimation from "react-animate-on-scroll";
 import Typed from 'react-typed';
-
+import {Link} from "react-router-dom";
+import { FiArrowRight } from "react-icons/fi";
 const SlpitOne = () => {
     return (
             <div className="rn-splite-style ">
@@ -71,7 +72,7 @@ const SlpitOne = () => {
                                     animateOut="fadeInOut"
                                     animateOnce={true}>
                                         <div className="view-more-button mt--35">
-                                            <a className="btn-default" href="/contact">Связаться с нами</a>
+                                            <Link className="btn-default btn-medium btn-border round btn-icon" to="/contact">Связаться с нами <i className="icon"><FiArrowRight /></i></Link>
                                         </div>
                                     </ScrollAnimation>
                                 </div>

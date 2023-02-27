@@ -41,5 +41,6 @@ export const BannerActivation = {
     dots: true,
     arrows: true,
     autoplay: true,
+    autoplaySpeed: 5000,
 };
 

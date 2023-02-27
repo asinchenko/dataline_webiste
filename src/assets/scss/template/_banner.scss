@@ -505,8 +505,7 @@
 // Slider Style 4 
 .slider-style-4 {
     .inner {
-        padding-top: 80px;
-
+        padding-top: 140px;
         @media #{$sm-layout} {
             padding-top: 50px;
         }
@@ -523,7 +522,7 @@
             line-height: 1.1;
             transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
             color: var(--color-white);
-
+            
             @media #{$lg-layout} {
                 font-size: 100px;
             }
@@ -542,10 +541,22 @@
         }
 
         .description {
-            font-size: 22px;
+            font-size: 16px;
             line-height: 43px;
             transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-            color: var(--color-body);
+            color:var(--color-white);
+            @media #{$sm-layout} {
+                font-size: 20px;
+                line-height: 35px;
+            }
+        }
+        .description-new {
+            position: relative;
+            height: 200px;
+            font-size: 16px;
+            line-height: 43px;
+            transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+            color: white;
             @media #{$sm-layout} {
                 font-size: 20px;
                 line-height: 35px;
@@ -855,6 +866,9 @@
             }
 
             .description {
+                animation-delay: 1s;
+            }
+            .description-new {
                 animation-delay: 1s;
             }
 

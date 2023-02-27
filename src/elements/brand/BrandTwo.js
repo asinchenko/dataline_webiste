@@ -36,6 +36,10 @@ const BrandList = [
     {
         image: './images/brand/brand-dl-09.png',
         link: `https://www.eaton.com/us/en-us.html`
+    },
+    {
+        image: './images/brand/cuba.png',
+        link: `https://cuba.tocloud.kz/`
     }
 ]
 

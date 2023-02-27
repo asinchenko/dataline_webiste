@@ -2,7 +2,7 @@ import React from 'react';
 import ScrollAnimation from "react-animate-on-scroll";
 import { FiArrowRight } from "react-icons/fi";
 import Logo from "../logo/Logo";
-
+import {Link} from "react-router-dom";
 const callToActionData = {
     title: "",
     subtitle: "Остались еще вопросы? Позвоните нам!",
@@ -36,7 +36,7 @@ const CalltoActionSeven = () => {
                         animateOut="fadeInOut"
                         animateOnce={true}>
                             <div className="call-to-btn text-start mt_sm--20 text-md-end">
-                                <a className="btn-default btn-icon" target="_blank" href="/contact">{callToActionData.btnText} <i className="icon"><FiArrowRight /></i></a>
+                                <Link className="btn-default btn-medium btn-border round btn-icon" to="/contact">Связаться с нами <i className="icon"><FiArrowRight /></i></Link>
                             </div>
                         </ScrollAnimation>
                     </div>
