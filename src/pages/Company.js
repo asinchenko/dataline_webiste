@@ -130,7 +130,7 @@ const Company = () => {
                                     textAlign = "text-center"
                                     radiusRounded = ""
                                     subtitle = ""
-                                    title = "Преимущества Нашей Компании"
+                                    title = "Преимущества нашей компании"
                                     description = "Наряду с профессиональным опытом и успехами в реализации проектов разного масштаба и сложности наша компания также имеет ряд преимуществ:"
                                     />
                             </div>
@@ -156,7 +156,7 @@ const Company = () => {
                                         textAlign = "text-center"
                                         radiusRounded = ""
                                         subtitle = ""
-                                        title = "Рабочий Процесс"
+                                        title = "Рабочий процесс"
                                     />
                             </div>
                         </div>
