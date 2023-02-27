@@ -1,10 +1,10 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-
+import { HashLink} from 'react-router-hash-link';
 const Nav = () => {
     return (
         <ul className="mainmenu">
-            <li className="has-droupdown"><Link to="/">Главная</Link>
+            <li className=""><HashLink to="/">Главная</HashLink>   
                 {/* <ul className="submenu">
                     <li><Link to="/business-consulting">Business Consulting</Link></li>
                     <li><Link to="/business-consulting-2">Business Consulting 02</Link></li>
@@ -27,7 +27,8 @@ const Nav = () => {
                 </ul> */}
             </li>
             
-            <li><Link to="/#1">О нас</Link></li>
+            <li><HashLink smooth to="/#about">О нас</HashLink></li>
+            <li><HashLink smooth to="/#partners">Партнеры</HashLink></li>
             {/*
             <li className="with-megamenu"><Link to="#">Elements</Link>
                 <div className="rn-megamenu">

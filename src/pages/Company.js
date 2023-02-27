@@ -47,7 +47,7 @@ const BannerData = [
     {
         image: "/images/it/team_900_900.jpeg",
         title: "Команда",
-        description: "Наша команда состоит из "
+        description: "Профессионализм специалистов компании в сфере разработки решений для ЦОД и сервисного обслуживания подтвержден квалификационными сертификатами"
     }
     
 ]
@@ -55,7 +55,7 @@ const BannerData = [
 const Company = () => {
     return (
         <>
-            <SEO title="dataline24" />
+            <SEO title="DataLine24" />
             <main className="page-wrapper">
                 <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-not-transparent" />
                 {/* Start Slider Area  */}
@@ -127,7 +127,7 @@ const Company = () => {
                 <div className="rn-service-area rn-section-gap">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-12">
+                            <div className="col-lg-12" id="about">
                                 <SectionTitle
                                     textAlign = "text-center"
                                     radiusRounded = ""
@@ -203,7 +203,7 @@ const Company = () => {
                                         radiusRounded = ""
                                         subtitle = "Заказчики"
                                         title = "Нам доверяют"
-                                        description = "Что нибудь написать сюда?"
+                                        description = ""
                                     />
                             </div>
                         </div>
@@ -213,7 +213,7 @@ const Company = () => {
                 {/* End Team Area  */}
                 <Separator />
                 {/* Start Brand Area  */}
-                <div className="rwt-brand-area pb--80 rn-section-gapBottom">
+                <div className="rwt-brand-area pb--80 rn-section-gapBottom" id="partners">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
