@@ -75,7 +75,7 @@ const PortfolioOne = ({ Column }) => {
     
     return (
         <>
-            <div className="row row--15">
+            {/* <div className="row row--15">
                 <div className="col-lg-12">
                     <ul className="rwt-portfolio-filter filter-button-default liststyle mb--20">
                         {filters.map((filter) => (
@@ -94,7 +94,7 @@ const PortfolioOne = ({ Column }) => {
                         ))}
                     </ul>
                 </div>
-            </div>
+            </div> */}
 
             <div className="row row--15">
                 {visibleItems.map((item) => (

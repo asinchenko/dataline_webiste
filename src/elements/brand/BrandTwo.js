@@ -23,15 +23,11 @@ const BrandList = [
     },
     {
         image: './images/brand/brand-dl-06.png',
-        link: `https://www.tecoenergy.com/`
+        link: `https://www.mhi.com/`
     },
     {
         image: './images/brand/brand-dl-07.png',
         link: `https://www.socomec.com/Home_en.html`
-    },
-    {
-        image: './images/brand/brand-dl-08.png',
-        link: `https://www.delta.com/`
     },
     {
         image: './images/brand/brand-dl-09.png',

@@ -14,10 +14,10 @@ function ContactForm({props , formStyle}) {
         e.preventDefault();
         emailjs
         .sendForm(
-            'service_p4x3hv8', 
-            'template_jgfr42f', 
+            'service_3n6yrtc', 
+            'template_aj3zuuq', 
             e.target, 
-            'user_jrfTH2e0Ely35ZCVFdT9S'
+            'FLUg8xS2H_yp_LcfV'
         )
         .then((result) => {
             console.log(result.text);
@@ -83,7 +83,7 @@ function ContactForm({props , formStyle}) {
             </div>  
 
             <div className="form-group">
-                <button className="btn-default btn-medium btn-border round btn-icon">Отправить</button>
+                <button type="submit" className="btn-default btn-medium btn-border round btn-icon">Отправить</button>
             </div> 
 
             <div className="form-group">

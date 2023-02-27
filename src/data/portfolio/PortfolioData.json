@@ -3,7 +3,7 @@
         "id": 1,
         "portfolioImage": "./images/portfolio/DC1_1270.jpeg",
         "image": "images/portfolio/DC1.jpeg",
-        "title": "Тех Обслуживание ЦОД",
+        "title": "Техническое обслуживание ЦОД",
         "subtitle": "Branded client",
         "date": "30 May 2021",
         "client": "Rainbow Themes",
@@ -35,7 +35,7 @@
         "id": 2,
         "portfolioImage": "./images/portfolio/electrica1_1270.jpeg",
         "image": "images/portfolio/electrica1_1270.jpeg",
-        "title": "Сервисное Обслуживание Энергоснабжения",
+        "title": "Обслуживание систем энергоснабжения",
         "subtitle": "Awesome portfolio",
         "date": "01 March 2021",
         "client": "Rainbow Themes",
@@ -71,7 +71,7 @@
         "id": 3,
         "portfolioImage": "./images/portfolio/3par_1270.jpeg",
         "image": "images/portfolio/3par_1270.jpeg",
-        "title": "Ввод Оборудования в Эксплуатацию",
+        "title": "Ввод оборудования в эксплуатацию",
         "subtitle": "Awesome portfolio",
         "date": "01 March 2021",
         "client": "Rainbow Themes",
@@ -107,7 +107,7 @@
         "id": 4,
         "portfolioImage": "./images/portfolio/service_desk_1270.jpeg",
         "image": "images/portfolio/service_desk_1270.jpeg",
-        "title": "Service Desk 24/7",
+        "title": "Service Desk",
         "subtitle": "Awesome portfolio",
         "date": "01 March 2021",
         "client": "Rainbow Themes",
@@ -143,7 +143,7 @@
         "id": 5,
         "portfolioImage": "./images/portfolio/monitoring_1270.jpeg",
         "image": "images/portfolio/monitoring_1270.jpeg",
-        "title": "Мониторинг Оборудования",
+        "title": "Мониторинг инфраструктуры ЦОД",
         "subtitle": "Awesome portfolio",
         "date": "01 March 2021",
         "client": "Rainbow Themes",
@@ -179,7 +179,7 @@
         "id": 6,
         "portfolioImage": "./images/portfolio/servers_1270.jpeg",
         "image": "images/portfolio/servers_1270.jpeg",
-        "title": "Обслуживание Серверного / Сетевого Оборудования",
+        "title": "Обслуживание серверного и сетевого оборудования",
         "subtitle": "Awesome portfolio",
         "date": "01 March 2021",
         "client": "Rainbow Themes",
@@ -213,9 +213,9 @@
 
     {
         "id": 7,
-        "portfolioImage": "./images/portfolio/air_1270.jpeg",
-        "image": "images/portfolio/air_1270.jpeg",
-        "title": "Сервис Систем Кондиционирования",
+        "portfolioImage": "./images/portfolio/air_cond_1270_950.jpeg",
+        "image": "images/portfolio/air_cond_1270_950.jpeg",
+        "title": "Обслуживание систем кондиционирования",
         "subtitle": "Awesome portfolio",
         "date": "01 March 2021",
         "client": "Rainbow Themes",
@@ -227,7 +227,7 @@
             "buttontext": "View Projects",
             "link": "/"
         },
-        "largeImage": "images/portfolio/air_1270.jpeg",
+        "largeImage": "images/portfolio/air_cond_1270_950.jpeg",
         "subContent": {
             "title": "Digital Marketing.",
             "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
@@ -249,9 +249,9 @@
 
     {
         "id": 8,
-        "portfolioImage": "./images/portfolio/zip_1270.jpeg",
-        "image": "images/portfolio/zip_1270.jpeg",
-        "title": "Управление ЗИП: Закуп, Учёт, Хранение.",
+        "portfolioImage": "./images/portfolio/warehouse_1270_950.png",
+        "image": "images/portfolio/warehouse_1270_950.png",
+        "title": "Управление ЗИП: закуп, учёт, хранение.",
         "subtitle": "Awesome portfolio",
         "date": "01 March 2021",
         "client": "Rainbow Themes",
@@ -263,7 +263,7 @@
             "buttontext": "View Projects",
             "link": "/"
         },
-        "largeImage": "images/portfolio/zip_1270.jpeg",
+        "largeImage": "images/portfolio/warehouse_1270_950.png",
         "subContent": {
             "title": "Digital Marketing.",
             "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
@@ -277,9 +277,9 @@
             "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
         },
         "gallery": {
-            "imageOne": "images/portfolio/zip_1270.jpeg",
-            "imageTwo": "images/portfolio/zip_1270.jpeg",
-            "imageThree": "images/portfolio/portfolio-03.jpg"
+            "imageOne": "images/portfolio/warehouse_1270_950.png",
+            "imageTwo": "images/portfolio/warehouse_1270_950.png",
+            "imageThree": "images/portfolio/warehouse_1270_950.png"
         }
     },
 
@@ -287,7 +287,7 @@
         "id": 9,
         "portfolioImage": "./images/portfolio/electrica2_1270.jpeg",
         "image": "images/portfolio/electrica2_1270.jpeg",
-        "title": "Сервисное Обслуживание Слаботочных Систем",
+        "title": "Сервис систем охранной и пожарной сигнализации ЦОД",
         "subtitle": "Awesome portfolio",
         "date": "01 March 2021",
         "client": "Rainbow Themes",
