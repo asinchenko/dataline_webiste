@@ -2,6 +2,7 @@ import React from 'react';
 import ContactForm from "./ContactForm";
 import GoogleMapStyle from "./GoogleMapStyle";
 import { FiHeadphones , FiMail , FiMapPin } from "react-icons/fi";
+import {RiWhatsappLine, RiTelegramLine} from "react-icons/ri"
 
 const ContactOne = () => {
     return (
@@ -17,7 +18,9 @@ const ContactOne = () => {
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Номер Телефона</h4>
-                                        <p><a href="tel:+7 777 079 3332">+7 777 079 3332</a></p>
+                                        <p><a href="tel:+7 777 079 3332">+7 777 079 3332</a> </p>
+                                        <br></br>
+                                        <p><a href="https://wa.me/77770793332"><RiWhatsappLine/></a> <a href="https://t.me/+77770793332"><RiTelegramLine/></a></p>
                                     </div>
                                 </div>
                             </div>
@@ -30,6 +33,8 @@ const ContactOne = () => {
                                     <div className="inner">
                                         <h4 className="title">Почтовый Адрес</h4>
                                         <p><a href="mailto:info@dtln24.kz">info@dtln24.kz</a></p>
+                                        <br></br>
+                                        <br></br>
                                     </div>
                                 </div>
                             </div>

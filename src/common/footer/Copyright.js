@@ -1,5 +1,5 @@
 import React from 'react'
-import { FiFacebook, FiTwitter, FiInstagram, FiLinkedin } from "react-icons/fi";
+import {RiMailLine, RiWhatsappLine, RiTelegramLine} from "react-icons/ri"
 import {Link} from "react-router-dom";
 const Copyright = () => {
     return (
@@ -10,10 +10,10 @@ const Copyright = () => {
                         <div className="copyright-left">
                             <ul className="ft-menu link-hover flex justify-center">                 
                             <ul className="social-icon social-default">
-                                <li><Link to="facebook.com"><FiFacebook /></Link></li>
-                                <li><Link to="twitter.com"><FiTwitter /></Link></li>
-                                <li><Link to="instagram.com"><FiInstagram /></Link></li>
-                                <li><Link to="linkdin.com"><FiLinkedin /></Link></li>
+                                <li><a href="mailto:info@dtln24.kz"><RiMailLine /></a></li>
+                                <li><a href="https://wa.me/77770793332"><RiWhatsappLine/></a></li>
+                                <li><a href="https://t.me/+77770793332"><RiTelegramLine /></a></li>
+                                
                             </ul>
                             </ul>
                         </div>

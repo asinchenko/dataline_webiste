@@ -37,7 +37,7 @@
     "start": "set PORT=3005 && react-scripts --openssl-legacy-provider --max_old_space_size=4096 start ",
     "build": "react-scripts --openssl-legacy-provider --max_old_space_size=4096 build",
     "dev": "set PORT=3005 && react-scripts start --openssl-legacy-provider --max_old_space_size=4096",
-    "test": "react-scripts test",
+    "test": "react-scripts build --openssl-legacy-provider --max_old_space_size=4096",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
